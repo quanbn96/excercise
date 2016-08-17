@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		141CC95B1D646A0C00AC9F59 /* All quotes.png in Resources */ = {isa = PBXBuildFile; fileRef = 141CC9591D646A0C00AC9F59 /* All quotes.png */; };
 		141CC95E1D646AA700AC9F59 /* Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 141CC95D1D646AA700AC9F59 /* Favorites.png */; };
 		14493EC71D64D862002738A7 /* quotes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 14493EC61D64D862002738A7 /* quotes.xml */; };
 		14493ECD1D64D9D5002738A7 /* GDataXMLNode .m in Sources */ = {isa = PBXBuildFile; fileRef = 14493ECB1D64D9D5002738A7 /* GDataXMLNode .m */; };
+		14493ECF1D64DAE2002738A7 /* All quotes.png in Resources */ = {isa = PBXBuildFile; fileRef = 14493ECE1D64DAE2002738A7 /* All quotes.png */; };
 		1486BBEF1D649F74007CDC9F /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1486BBEE1D649F74007CDC9F /* libxml2.2.dylib */; };
 		1486BBF91D64A669007CDC9F /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1486BBF81D64A669007CDC9F /* Quote.m */; };
 		1486BBFD1D64AA11007CDC9F /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1486BBFC1D64AA11007CDC9F /* ModelManager.m */; };
@@ -65,11 +65,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		141CC9591D646A0C00AC9F59 /* All quotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "All quotes.png"; path = "../../../../Downloads/Resource 2/icon/All quotes.png"; sourceTree = "<group>"; };
 		141CC95D1D646AA700AC9F59 /* Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favorites.png; sourceTree = "<group>"; };
 		14493EC61D64D862002738A7 /* quotes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = quotes.xml; sourceTree = "<group>"; };
 		14493ECB1D64D9D5002738A7 /* GDataXMLNode .m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GDataXMLNode .m"; sourceTree = "<group>"; };
 		14493ECC1D64D9D5002738A7 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		14493ECE1D64DAE2002738A7 /* All quotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "All quotes.png"; sourceTree = "<group>"; };
 		1486BBEE1D649F74007CDC9F /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
 		1486BBF71D64A669007CDC9F /* Quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote.h; sourceTree = "<group>"; };
 		1486BBF81D64A669007CDC9F /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
@@ -315,9 +315,9 @@
 		14AD80061D64563500C1413D /* icon */ = {
 			isa = PBXGroup;
 			children = (
+				14493ECE1D64DAE2002738A7 /* All quotes.png */,
 				14AD80071D64563E00C1413D /* About us.png */,
 				141CC95D1D646AA700AC9F59 /* Favorites.png */,
-				141CC9591D646A0C00AC9F59 /* All quotes.png */,
 				14AD800A1D64563E00C1413D /* image_email.png */,
 				14AD800B1D64563E00C1413D /* image_phone.png */,
 				14AD800C1D64563E00C1413D /* image_web.png */,
@@ -409,6 +409,7 @@
 				14AD80181D64563E00C1413D /* image_web.png in Resources */,
 				14AD7FF51D64560100C1413D /* 120.png in Resources */,
 				14AD80051D64562C00C1413D /* backgroupheader copy.png in Resources */,
+				14493ECF1D64DAE2002738A7 /* All quotes.png in Resources */,
 				14AD80301D64565400C1413D /* Default~iphone.png in Resources */,
 				14AD7FF41D64560100C1413D /* 114.png in Resources */,
 				14AD80001D64561700C1413D /* yoona-im-yoona-26466580-688-1054-1729586.jpg in Resources */,
@@ -438,7 +439,6 @@
 				14AD80131D64563E00C1413D /* About us.png in Resources */,
 				14AD7FF31D64560100C1413D /* 87.png in Resources */,
 				14AD7FFE1D64561700C1413D /* avatar.jpg in Resources */,
-				141CC95B1D646A0C00AC9F59 /* All quotes.png in Resources */,
 				14AD7FF61D64560100C1413D /* 144.png in Resources */,
 				14AD80351D64565400C1413D /* splash.png in Resources */,
 				14AD802F1D64565400C1413D /* Default@2x.png in Resources */,

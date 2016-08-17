@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		141CC95B1D646A0C00AC9F59 /* All quotes.png in Resources */ = {isa = PBXBuildFile; fileRef = 141CC9591D646A0C00AC9F59 /* All quotes.png */; };
 		141CC95E1D646AA700AC9F59 /* Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 141CC95D1D646AA700AC9F59 /* Favorites.png */; };
+		14493EC71D64D862002738A7 /* quotes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 14493EC61D64D862002738A7 /* quotes.xml */; };
 		1486BBEF1D649F74007CDC9F /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1486BBEE1D649F74007CDC9F /* libxml2.2.dylib */; };
 		1486BBF21D649FF0007CDC9F /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1486BBF11D649FF0007CDC9F /* GDataXMLNode.m */; };
 		1486BBF91D64A669007CDC9F /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1486BBF81D64A669007CDC9F /* Quote.m */; };
 		1486BBFD1D64AA11007CDC9F /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1486BBFC1D64AA11007CDC9F /* ModelManager.m */; };
-		1486BBFF1D64AAC2007CDC9F /* quotes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1486BBFE1D64AAC2007CDC9F /* quotes.xml */; };
 		1486BC0A1D64C0F6007CDC9F /* AllQuotesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1486BC091D64C0F6007CDC9F /* AllQuotesVC.m */; };
 		1486BC111D64C630007CDC9F /* QuoteDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1486BC101D64C630007CDC9F /* QuoteDataBase.m */; };
 		14AD7FB71D644E8600C1413D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD7FB61D644E8600C1413D /* main.m */; };
@@ -67,6 +67,7 @@
 /* Begin PBXFileReference section */
 		141CC9591D646A0C00AC9F59 /* All quotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "All quotes.png"; path = "../../../../Downloads/Resource 2/icon/All quotes.png"; sourceTree = "<group>"; };
 		141CC95D1D646AA700AC9F59 /* Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favorites.png; sourceTree = "<group>"; };
+		14493EC61D64D862002738A7 /* quotes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = quotes.xml; sourceTree = "<group>"; };
 		1486BBEE1D649F74007CDC9F /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
 		1486BBF01D649FF0007CDC9F /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = "../../../../Downloads/GDataXML-HTML-master/Pod/Classes/GDataXMLNode.h"; sourceTree = "<group>"; };
 		1486BBF11D649FF0007CDC9F /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = "../../../../Downloads/GDataXML-HTML-master/Pod/Classes/GDataXMLNode.m"; sourceTree = "<group>"; };
@@ -74,7 +75,6 @@
 		1486BBF81D64A669007CDC9F /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
 		1486BBFB1D64AA11007CDC9F /* ModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelManager.h; sourceTree = "<group>"; };
 		1486BBFC1D64AA11007CDC9F /* ModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelManager.m; sourceTree = "<group>"; };
-		1486BBFE1D64AAC2007CDC9F /* quotes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = quotes.xml; path = ../../../../Downloads/quotes.xml; sourceTree = "<group>"; };
 		1486BC081D64C0F6007CDC9F /* AllQuotesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllQuotesVC.h; sourceTree = "<group>"; };
 		1486BC091D64C0F6007CDC9F /* AllQuotesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllQuotesVC.m; sourceTree = "<group>"; };
 		1486BC0F1D64C630007CDC9F /* QuoteDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteDataBase.h; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 		14AD7FB41D644E8600C1413D /* exerciseFruity */ = {
 			isa = PBXGroup;
 			children = (
-				1486BBFE1D64AAC2007CDC9F /* quotes.xml */,
+				14493EC61D64D862002738A7 /* quotes.xml */,
 				1486BBF41D64A5FD007CDC9F /* classes */,
 				1486BBE51D649D3C007CDC9F /* Library */,
 				14AD7FD01D64507F00C1413D /* resoure */,
@@ -420,7 +420,7 @@
 				14AD7FF01D64560100C1413D /* 72.png in Resources */,
 				14AD802E1D64565400C1413D /* Default.png in Resources */,
 				14AD80311D64565400C1413D /* iPad-Lanscape.png in Resources */,
-				1486BBFF1D64AAC2007CDC9F /* quotes.xml in Resources */,
+				14493EC71D64D862002738A7 /* quotes.xml in Resources */,
 				14AD7FEC1D64560100C1413D /* 29.png in Resources */,
 				14AD7FC51D644E8600C1413D /* LaunchScreen.storyboard in Resources */,
 				14AD7FF21D64560100C1413D /* 80.png in Resources */,
